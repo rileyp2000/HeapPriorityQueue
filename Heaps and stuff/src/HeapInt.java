@@ -30,10 +30,8 @@ public class HeapInt
 				r = mid -1;
 			else if(i < list.get(mid))
 				l = mid + 1;
-			else
-				return mid;
 		}
-		return mid;
+		return l;
 	}
 	
 	public static void main(String[] args) {
